@@ -10,7 +10,6 @@
 		5B713A7C1D826AD300F9F4F8 /* RangeSliderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713A7B1D826AD300F9F4F8 /* RangeSliderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B713A801D826AD300F9F4F8 /* RangeSliderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713A791D826AD300F9F4F8 /* RangeSliderFramework.framework */; };
 		5B713A811D826AD300F9F4F8 /* RangeSliderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713A791D826AD300F9F4F8 /* RangeSliderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B713A861D826ADE00F9F4F8 /* NMRangeSlider.h in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */; };
 		5B713A871D826ADE00F9F4F8 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */; };
 		5B713A881D826AE600F9F4F8 /* slider-default7-trackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCB8180690AE00FBE743 /* slider-default7-trackBackground.png */; };
 		5B713A891D826AE600F9F4F8 /* slider-default7-trackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCB9180690AE00FBE743 /* slider-default7-trackBackground@2x.png */; };
@@ -515,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B713A861D826ADE00F9F4F8 /* NMRangeSlider.h in Sources */,
 				5B713A871D826ADE00F9F4F8 /* NMRangeSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
