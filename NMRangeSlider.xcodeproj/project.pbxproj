@@ -11,7 +11,7 @@
 		5B713BA31D82736B00F9F4F8 /* RangeSliderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */; };
 		5B713BA51D82736B00F9F4F8 /* RangeSliderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B713BA91D82737400F9F4F8 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */; };
-		5B713BAA1D82738100F9F4F8 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */; };
+		5B713BAA1D82738100F9F4F8 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
 		EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
 		EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
