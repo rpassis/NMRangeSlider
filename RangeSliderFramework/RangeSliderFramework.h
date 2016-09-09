@@ -16,6 +16,6 @@ FOUNDATION_EXPORT const unsigned char RangeSliderFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <RangeSliderFramework/PublicHeader.h>
 
-#import "NMRangeSlider.h"
+#import <RangeSliderFramework/NMRangeSlider.h>
 
 
