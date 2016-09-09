@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E61B89F65BCF5E1B0B6C39A6E0758DD579FB3D88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E61B89F65BCF5E1B0B6C39A6E0758DD579FB3D88" : 0,
+    "16C31B73CF1C6F7E8DEB6E2294FB7A7D0E83B62A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB72E0C3-8B27-443C-9C80-65077E37C639",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E61B89F65BCF5E1B0B6C39A6E0758DD579FB3D88" : "NMRangeSlider\/",
+    "16C31B73CF1C6F7E8DEB6E2294FB7A7D0E83B62A" : "bloodstock_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NMRangeSlider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NMRangeSlider.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:freshmob\/bloodstock-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16C31B73CF1C6F7E8DEB6E2294FB7A7D0E83B62A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rpassis\/NMRangeSlider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E61B89F65BCF5E1B0B6C39A6E0758DD579FB3D88"
+    }
+  ]
+}
