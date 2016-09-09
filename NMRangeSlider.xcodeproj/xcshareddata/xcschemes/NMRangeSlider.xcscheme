@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B713B9B1D82736B00F9F4F8"
-               BuildableName = "RangeSliderFramework.framework"
-               BlueprintName = "RangeSliderFramework"
+               BlueprintIdentifier = "5B713BD41D827BA200F9F4F8"
+               BuildableName = "NMRangeSlider.framework"
+               BlueprintName = "NMRangeSlider"
                ReferencedContainer = "container:NMRangeSlider.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B713B9B1D82736B00F9F4F8"
-            BuildableName = "RangeSliderFramework.framework"
-            BlueprintName = "RangeSliderFramework"
+            BlueprintIdentifier = "5B713BD41D827BA200F9F4F8"
+            BuildableName = "NMRangeSlider.framework"
+            BlueprintName = "NMRangeSlider"
             ReferencedContainer = "container:NMRangeSlider.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B713B9B1D82736B00F9F4F8"
-            BuildableName = "RangeSliderFramework.framework"
-            BlueprintName = "RangeSliderFramework"
+            BlueprintIdentifier = "5B713BD41D827BA200F9F4F8"
+            BuildableName = "NMRangeSlider.framework"
+            BlueprintName = "NMRangeSlider"
             ReferencedContainer = "container:NMRangeSlider.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
