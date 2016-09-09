@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B713B9F1D82736B00F9F4F8 /* RangeSliderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B713B9E1D82736B00F9F4F8 /* RangeSliderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B713BA31D82736B00F9F4F8 /* RangeSliderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */; };
+		5B713BA51D82736B00F9F4F8 /* RangeSliderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B713BA91D82737400F9F4F8 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36F96715CD0BF8009A1A04 /* NMRangeSlider.m */; };
+		5B713BAA1D82738100F9F4F8 /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EC36F96615CD0BF8009A1A04 /* NMRangeSlider.h */; };
 		EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93615CD0B96009A1A04 /* UIKit.framework */; };
 		EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93815CD0B96009A1A04 /* Foundation.framework */; };
 		EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC36F93A15CD0B96009A1A04 /* CoreGraphics.framework */; };
@@ -57,7 +62,34 @@
 		EC6CCCC7180690AE00FBE743 /* slider-default7-handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6CCCBF180690AE00FBE743 /* slider-default7-handle@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B713BA11D82736B00F9F4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC36F92915CD0B96009A1A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B713B9B1D82736B00F9F4F8;
+			remoteInfo = RangeSliderFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B713BA41D82736B00F9F4F8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B713BA51D82736B00F9F4F8 /* RangeSliderFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RangeSliderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B713B9E1D82736B00F9F4F8 /* RangeSliderFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSliderFramework.h; sourceTree = "<group>"; };
+		5B713BA01D82736B00F9F4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMRangeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36F93615CD0B96009A1A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC36F93815CD0B96009A1A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,10 +149,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B713B981D82736B00F9F4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F92F15CD0B96009A1A04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B713BA31D82736B00F9F4F8 /* RangeSliderFramework.framework in Frameworks */,
 				EC36F93715CD0B96009A1A04 /* UIKit.framework in Frameworks */,
 				EC36F93915CD0B96009A1A04 /* Foundation.framework in Frameworks */,
 				EC36F93B15CD0B96009A1A04 /* CoreGraphics.framework in Frameworks */,
@@ -130,12 +170,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B713B9D1D82736B00F9F4F8 /* RangeSliderFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5B713B9E1D82736B00F9F4F8 /* RangeSliderFramework.h */,
+				5B713BA01D82736B00F9F4F8 /* Info.plist */,
+			);
+			path = RangeSliderFramework;
+			sourceTree = "<group>";
+		};
 		EC36F92715CD0B96009A1A04 = {
 			isa = PBXGroup;
 			children = (
 				EC53B5F61993875B00C81C7E /* NMRangeSlider.podspec */,
 				EC4B675B17F8F1470054842C /* Default-568h@2x.png */,
 				EC36F93C15CD0B96009A1A04 /* NMRangeSlider-Demo */,
+				5B713B9D1D82736B00F9F4F8 /* RangeSliderFramework */,
 				EC36F93515CD0B96009A1A04 /* Frameworks */,
 				EC36F93315CD0B96009A1A04 /* Products */,
 			);
@@ -145,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				EC36F93215CD0B96009A1A04 /* NMRangeSlider.app */,
+				5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,7 +318,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5B713B991D82736B00F9F4F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B713B9F1D82736B00F9F4F8 /* RangeSliderFramework.h in Headers */,
+				5B713BAA1D82738100F9F4F8 /* NMRangeSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5B713B9B1D82736B00F9F4F8 /* RangeSliderFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B713BA81D82736B00F9F4F8 /* Build configuration list for PBXNativeTarget "RangeSliderFramework" */;
+			buildPhases = (
+				5B713B971D82736B00F9F4F8 /* Sources */,
+				5B713B981D82736B00F9F4F8 /* Frameworks */,
+				5B713B991D82736B00F9F4F8 /* Headers */,
+				5B713B9A1D82736B00F9F4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeSliderFramework;
+			productName = RangeSliderFramework;
+			productReference = 5B713B9C1D82736B00F9F4F8 /* RangeSliderFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		EC36F93115CD0B96009A1A04 /* NMRangeSlider */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC36F95015CD0B96009A1A04 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */;
@@ -275,10 +356,12 @@
 				EC36F92E15CD0B96009A1A04 /* Sources */,
 				EC36F92F15CD0B96009A1A04 /* Frameworks */,
 				EC36F93015CD0B96009A1A04 /* Resources */,
+				5B713BA41D82736B00F9F4F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B713BA21D82736B00F9F4F8 /* PBXTargetDependency */,
 			);
 			name = NMRangeSlider;
 			productName = NMRangeSlider;
@@ -294,6 +377,11 @@
 				CLASSPREFIX = NM;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Null Monkey";
+				TargetAttributes = {
+					5B713B9B1D82736B00F9F4F8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,11 +396,19 @@
 			projectRoot = "";
 			targets = (
 				EC36F93115CD0B96009A1A04 /* NMRangeSlider */,
+				5B713B9B1D82736B00F9F4F8 /* RangeSliderFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5B713B9A1D82736B00F9F4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F93015CD0B96009A1A04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +460,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5B713B971D82736B00F9F4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B713BA91D82737400F9F4F8 /* NMRangeSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC36F92E15CD0B96009A1A04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +480,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B713BA21D82736B00F9F4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B713B9B1D82736B00F9F4F8 /* RangeSliderFramework */;
+			targetProxy = 5B713BA11D82736B00F9F4F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC36F93F15CD0B96009A1A04 /* InfoPlist.strings */ = {
@@ -397,6 +509,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5B713BA61D82736B00F9F4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RangeSliderFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.RangeSliderFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B713BA71D82736B00F9F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RangeSliderFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.freshmob.RangeSliderFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EC36F94E15CD0B96009A1A04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -452,6 +650,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NMRangeSlider-Demo/NMRangeSlider-Prefix.pch";
 				INFOPLIST_FILE = "NMRangeSlider-Demo/NMRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +663,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NMRangeSlider-Demo/NMRangeSlider-Prefix.pch";
 				INFOPLIST_FILE = "NMRangeSlider-Demo/NMRangeSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +673,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B713BA81D82736B00F9F4F8 /* Build configuration list for PBXNativeTarget "RangeSliderFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B713BA61D82736B00F9F4F8 /* Debug */,
+				5B713BA71D82736B00F9F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EC36F92C15CD0B96009A1A04 /* Build configuration list for PBXProject "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
